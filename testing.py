@@ -8,12 +8,12 @@ matrix_right = [
 ]
 
 matrix_wrong = [
-    [1, 1, -2],
-    [2, 3, -7],
-    [5, 2, 1]
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
 ]
 
-answer = [6, 16, 16]
+answer = [10, 11, 12]
 
 # print(np.linalg.solve(matrix_right, answer))
 # print(np.linalg.solve(matrix_wrong, answer))
